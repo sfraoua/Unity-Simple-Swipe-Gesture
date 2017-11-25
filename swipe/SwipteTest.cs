@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SwipteTest : MonoBehaviour
 {
-    public Swipe swipeControls;
+	public SwipeGesture swipeControls;
     public Transform player;
     private Vector3 desiredPosition;
 

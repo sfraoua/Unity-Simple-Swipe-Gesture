@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿namespace Liya.Gestures
+{
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Swipe : MonoBehaviour {
+public class SwipeGesture : MonoBehaviour {
 
     private bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDraging = false;
@@ -103,4 +105,5 @@ public class Swipe : MonoBehaviour {
         startTouch = swipeDelta = Vector2.zero;
         isDraging = false;
     }
+}
 }
